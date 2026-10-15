@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "KODI",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\MOVIES_MEDIA\\KODI\\UPSTREAM_CLONE",
   "git": {
-   "head": "071a5dff1dd9e9a12909a0b8fdc2901a938f0d71",
-   "url": "https://github.com/anacrolix/dms",
-   "branch": "master",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/XLordKX/kodi",
+   "head": "fff99dfc6737b72c040efb90ceb4b3370457a56e",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/anacrolix/dms"
   }
  },
  "metrics": {
