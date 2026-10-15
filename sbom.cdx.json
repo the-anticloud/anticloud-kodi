@@ -1,0 +1,67 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:0ea22aa4-bae7-569d-bf64-9bc9e48f93ad",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T07:32:56Z",
+    "component": {
+      "type": "application",
+      "name": "KODI",
+      "version": "071a5dff1dd9",
+      "bom-ref": "pkg:generic/anticloud/KODI@071a5dff1dd9",
+      "purl": "pkg:generic/anticloud/KODI@071a5dff1dd9",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "071a5dff1dd9e9a12909a0b8fdc2901a938f0d71"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "github.com/anacrolix/ffprobe",
+      "version": "v1.1.0",
+      "purl": "pkg:golang/github.com/anacrolix/ffprobe@v1.1.0",
+      "bom-ref": "go/github.com/anacrolix/ffprobe@v1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "github.com/nfnt/resize",
+      "version": "v0.0.0-20180221191011-83c6a9932646",
+      "purl": "pkg:golang/github.com/nfnt/resize@v0.0.0-20180221191011-83c6a9932646",
+      "bom-ref": "go/github.com/nfnt/resize@v0.0.0-20180221191011-83c6a9932646"
+    },
+    {
+      "type": "library",
+      "name": "golang.org/x/net",
+      "version": "v0.50.0",
+      "purl": "pkg:golang/golang.org/x/net@v0.50.0",
+      "bom-ref": "go/golang.org/x/net@v0.50.0"
+    },
+    {
+      "type": "library",
+      "name": "golang.org/x/sys",
+      "version": "v0.41.0",
+      "purl": "pkg:golang/golang.org/x/sys@v0.41.0",
+      "bom-ref": "go/golang.org/x/sys@v0.41.0"
+    }
+  ]
+}
